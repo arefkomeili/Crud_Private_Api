@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD API Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CRUD API Example</h1>
+
+    <div id="output">
+        <!-- Data from API will be displayed here -->
+    </div>
+
+    <form id="dataForm">
+        <input type="text" id="inputData" placeholder="Enter data">
+        <button type="submit">Add Data</button>
+    </form>
+
+    <div id="updateDeleteForm" style="display: none;">
+        <input type="text" id="updateData" placeholder="Update data">
+        <button id="updateButton">Update</button>
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
